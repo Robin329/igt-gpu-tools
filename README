@@ -1,0 +1,8 @@
+## build on rock 5b host
+```sh
+$ sudo apt-get install libcairo2-dev libcairo2 libprocps-dev libprocps8 libkmod-dev libkmod2 -y
+
+$ meson build && ninja -C build
+
+$ sudo cp /usr/lib/aarch64-linux-gnu/* /data/nfs_rootfs/usr/lib/aarch64-linux-gnu/
+```
