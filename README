@@ -6,3 +6,13 @@ $ meson build && ninja -C build
 
 $ sudo cp /usr/lib/aarch64-linux-gnu/* /data/nfs_rootfs/usr/lib/aarch64-linux-gnu/
 ```
+
+## Testing
+```
+$ ./kms_writeback IGT_DEVICE="sys:/sys/devices/platform/vkms"
+```
+
+## Usage
+
+[Test With IGT](https://dri.freedesktop.org/docs/drm/gpu/vkms.html)
+[igt-gpu-tools](https://drm.pages.freedesktop.org/igt-gpu-tools/)

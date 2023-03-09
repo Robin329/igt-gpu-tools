@@ -50,5 +50,5 @@ results
 build
 patches
 Makefile
-
+.cache
 .vscode
